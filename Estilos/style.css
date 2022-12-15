@@ -96,6 +96,10 @@ input#entrar{
     margin-top: 30px;
     padding: 10px;
     width:300px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
 }
 input#entrar:hover{
     background-color: white;
