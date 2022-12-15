@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Login</title>
+    <link rel="stylesheet" href="Estilos/style.css">
+    <link rel="stylesheet" href="Estilis/grande.css" media="screen and (min-width: 768px)">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="img-login">
+                <img src="Imagens/iconelogin.png" alt="Icone de login">
+            </div>
+            <div id="formulario">
+                <h1>Entrar</h1>
+                <form action="login.php" method="post">
+                    <div><label for="usuario"><input type="text" name="usuario" id="usuario" placeholder="Usuário"></label></div>
+                    <div><label for="senha"><input type="password" name="senha" id="senha" placeholder="Senha"></label></div>
+                    <div id="entrar"><input id="entrar" type="submit" value="Entrar"></div>
+                    <div id="lembrar"><label for="lembre"><input type="checkbox" name="lembre" id="lembre"> Lembrar de mim</label></div>
+                    <div id="paragrafo">
+                        <a href="#">Recuperar Senha</a>
+                    </div>
+                    <div id="p2">
+                        <p>Novo por aqui?
+                            <a href="#">ASSINE AGORA!</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+
+        </section>
+    </main>
+    
+</body>
+</html>

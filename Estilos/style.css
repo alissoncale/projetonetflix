@@ -1,0 +1,135 @@
+@charset "UTF-8";
+@font-face {
+    font-family:font-netflix;
+    src: url(../fontes/NetflixSans-Regular.otf);
+}
+:root{
+    --cor1: #D90B1C;
+    --cor2: #F24957;
+    --cor3: #F2858E;
+    --cor4: #F2BDBD;
+    --cor5: #0D0D0D;
+}
+*{margin: 0px;padding: 0px; font-family: Arial, Helvetica, sans-serif;}
+
+html{
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    background-image: url(../Imagens/backnetflixpq.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+section#login{
+    background-color: #000000ce;
+    height: 400px;
+    width: 350px;
+    margin: auto;
+    margin-top:130px;
+    border-radius: 15px 35px 15px 35px;
+    box-shadow: 10px 10px 10px black;
+}
+section div#img-login{
+    position: relative;
+}
+section div#img-login img{
+    position: absolute;
+    height: 50px;
+    left: 42%;
+    margin-top: -20px;
+}
+section div#formulario h1{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px 2px black;
+    font-family: 'font-netflix';
+    font-weight: bold;
+    padding-top: 50px;
+    font-size: 2em;
+    
+}
+input#usuario{
+    color: white;
+    background-color: transparent;
+    margin-top:35px;
+    margin-left: 30px;
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(56, 56, 56);
+    width: 272px;
+    
+}
+
+input#senha{
+    color: white;
+    background-color: transparent;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(56, 56, 56);
+    width: 272px;
+}
+div#lembrar{
+    color: white;
+    margin-top: -70px;
+    margin-left: 30px;
+}
+input#lembre:checked{
+    background-color: #D90B1C;
+    
+}
+
+input#entrar{
+    font-size: 1.3em;
+    display: block;
+    color: white;
+    background-color: var(--cor1);
+    height: 50px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    width:300px;
+}
+input#entrar:hover{
+    background-color: white;
+    color: var(--cor1);
+    transition: 0.5s;
+    
+}
+div#paragrafo{
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+}
+div#paragrafo a{
+    text-decoration: none;
+    color: white;
+}
+div#p2{
+    font-family: "font-netflix";
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    font-weight: bold;
+}
+div#p2 a{
+    background-color: var(--cor1);
+    padding: 3px;
+    text-decoration: none;
+    color: white;
+}
+div#p2 a:hover{
+    background-color: white;
+    color: var(--cor1);
+    transition: 0.5s;
+}
+
+
+
