@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 body{
-    background-image: url(../Imagens/backnetflixpc.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-color: black;
+    background-image: url(../Imagens/backnetflixland.png);
+    
+    
 }
